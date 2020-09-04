@@ -1,0 +1,39 @@
+.calendar_sheet{
+	position:relative;
+	float:left;
+	width:42px;
+	height:45px;
+	border :1px solid #d7d7c7;
+	text-align:center;
+}
+
+.calendar_sheet_orange_head {
+	float:left;
+	width:100%;
+	height:12px;
+	color:#FFFFFF;
+	font-size:9px;
+	font-weight:bold;
+	padding-top:2px;
+}
+
+.calendar_sheet_orange_head{
+	background: url(../images/cal_head_orange.png) no-repeat bottom;
+}
+
+.calendar_sheet_body{
+	float:left;
+	width:100%;
+	height:31px;
+	font-size:19px;
+	background: url(../images/sprite.png) repeat-x 0 0;
+	padding-top:0px;
+}
+
+.day_of_week {
+	float:left;
+	width:100%;
+	font-size:9px;
+	margin-top:-4px;
+}
+

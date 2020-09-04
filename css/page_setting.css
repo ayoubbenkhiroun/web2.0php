@@ -1,0 +1,152 @@
+html, body {
+    width:100%;
+    float: left;
+    margin:0px;
+    padding: 0px;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+
+
+#header, #menu {
+    width:90%;
+    float: left;
+    padding: 10px 5% 10px 5%;
+
+}
+
+#header{
+    font-size: 30px;
+    color: #FFF;
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+    padding-top:20px;
+    height: 50px;
+    background-color: #9897c8;
+
+}
+
+#menu {
+    height: 30px;
+    background-color: #563fc2;
+    border-bottom: 2px solid #9897c8;
+
+}
+
+#submenu {
+    width:18%;
+    float: left;
+    padding: 10px 2% 10px 0%;
+    background-color: #FFF;
+}
+
+#content {
+    width:78%;
+    float: left;
+    padding: 10px 1% 10px 1%;
+    background-color: #FFF;
+}
+
+.menu_item{
+    float:left;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0px 5% 0px 5%;
+    margin-top: 5px;
+    border-right: 1px dotted #FFF;
+}
+.menu_item:hover{
+    color: #9897c8;
+
+}
+
+.submenu_item{
+    float:left;
+    color: #563fc2;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 5px 5% 5px 5%;
+    width:90%;
+    border-bottom: 1px dotted #9897c8;
+
+}
+
+
+form {
+    float:left;
+    width:50%;
+    border: 1px dotted #9897c8;
+    padding:20px 2% 20px 2%;
+}
+
+
+.input_div {
+    width:90%;
+    float:left;
+    padding:2px 5% 2px 5%;
+}
+
+
+.input_label {
+    width:30%;
+    float:left;
+    padding:2px 5% 2px 5%;
+    text-align:right;
+    font-weight: bold;
+}
+
+.input_item {
+    width:50%;
+    float:left;
+    padding:2px 5% 2px 5%;
+}
+
+
+.write_up_frame {
+    float:left;
+    width: 96%;
+    background-color: #e3e3f3;
+    padding: 10px 2% 10px 2%;
+    margin-bottom: 3px;
+    color:#333333;
+}
+
+
+
+
+.write_up_thumbnail {
+    float:left;
+    width: 10%;
+    background-color: transparent;
+}
+
+
+.write_up_body {
+    float:left;
+    width: 90%;
+    background-color: transparent;
+}
+
+
+
+.write_up_author {
+    float:left;
+    width: 100%;
+    background-color: transparent;
+    padding: 0px 0% 5px 0%;
+    font-weight: bold;
+    color:#333333;
+}
+
+.write_up_date, .timeago {
+    float:left;
+    width: 100%;
+    background-color: transparent;
+    padding: 5px 0% 0px 0%;
+    color:#808080;
+    border:none;
+}
